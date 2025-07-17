@@ -1,0 +1,10 @@
+requests>=2.31.0
+jira>=3.5.0
+PyGithub>=1.59.0
+python-dotenv>=1.0.0
+pydantic>=2.4.0
+rich>=13.5.0
+click>=8.1.0
+PyYAML>=6.0.1
+openai>=1.3.0
+anthropic>=0.7.0 
