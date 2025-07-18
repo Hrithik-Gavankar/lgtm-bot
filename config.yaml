@@ -1,0 +1,36 @@
+jira:
+  server: "https://your-company.atlassian.net"
+  username: ""  # Set via JIRA_USERNAME env var
+  token: ""     # Set via JIRA_TOKEN env var
+
+github:
+  token: ""     # Set via GITHUB_TOKEN env var
+
+ai:
+  provider: "ollama"  # Use local ollama
+  model: "deepseek-r1:latest"  # Available models: llama3.2:3b, llama3.2:latest, deepseek-r1:latest
+  base_url: "http://localhost:11434/v1"  # Default ollama endpoint
+
+review:
+  criteria:
+    - "Fulfills acceptance criteria"
+    - "Proper error handling"
+    - "Adequate test coverage"
+    - "Clean code practices"
+    - "Security considerations"
+    - "Performance implications"
+  
+  fail_keywords:
+    - "TODO"
+    - "FIXME"
+    - "HACK"
+    - "console.log"
+    - "print("
+    
+  test_patterns:
+    - "test_*.py"
+    - "*_test.py"
+    - "*.test.js"
+    - "*.spec.js"
+    - "*.test.ts"
+    - "*.spec.ts" 
