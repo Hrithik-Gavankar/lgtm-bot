@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3004d035-f353-492f-97e3-e933013d34f8" />
+
 # LGTM Bot 🤖
 
 An AI-powered code review bot that evaluates GitHub Pull Requests against Jira ticket requirements.
